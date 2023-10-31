@@ -1,0 +1,118 @@
+/*ESTILOS GLOBALES*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+body {
+    background-color: blue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button{
+    
+}
+
+/*ESTILOS HEADER*/
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+header img {
+    width: 50;
+
+}
+
+header ul,
+footer ul {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+header button {
+    padding: 10px 20px;
+}
+
+header button:hover {
+    background-color: aqua;
+}
+
+/*ESTILOS MAIN*/
+
+/* BANNER */
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(./muñeco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*CARDS */
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 2);
+    cursor: default;
+    transition: all 400ms ease;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px ;
+}
+
+article.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+    transform: translateY(-3%);
+}
+
+.card img {
+    width: 300px;
+
+}
+
+
+
+
+
+/*ESTILOS FOOTER*/
+footer {
+    background-image: linear-gradient(90deg, blue, white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+footer i {
+    font-size: 48px;
+}
